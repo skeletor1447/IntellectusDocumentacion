@@ -150,6 +150,104 @@
 							"columnCompartment": {
 								"$ref": "AAAAAAFp+nyeXGY6AV4="
 							}
+						},
+						{
+							"_type": "ERDEntityView",
+							"_id": "AAAAAAFqC3Y9/IrsOXo=",
+							"_parent": {
+								"$ref": "AAAAAAFp+nxpUGYyM9E="
+							},
+							"model": {
+								"$ref": "AAAAAAFqC3Y994rqQVo="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFqC3Y9/IrtlpU=",
+									"_parent": {
+										"$ref": "AAAAAAFqC3Y9/IrsOXo="
+									},
+									"font": "Arial;13;1",
+									"left": 32,
+									"top": 213,
+									"width": 223.57177734375,
+									"height": 13,
+									"text": "SolicitudAmistad"
+								},
+								{
+									"_type": "ERDColumnCompartmentView",
+									"_id": "AAAAAAFqC3Y9/YruUV4=",
+									"_parent": {
+										"$ref": "AAAAAAFqC3Y9/IrsOXo="
+									},
+									"model": {
+										"$ref": "AAAAAAFqC3Y994rqQVo="
+									},
+									"subViews": [
+										{
+											"_type": "ERDColumnView",
+											"_id": "AAAAAAFqC3aGgor7m8w=",
+											"_parent": {
+												"$ref": "AAAAAAFqC3Y9/YruUV4="
+											},
+											"model": {
+												"$ref": "AAAAAAFqC3aE3or4r7c="
+											},
+											"font": "Arial;13;0",
+											"left": 37,
+											"top": 236,
+											"width": 213.57177734375,
+											"height": 13
+										},
+										{
+											"_type": "ERDColumnView",
+											"_id": "AAAAAAFqC3dcIYsFwtw=",
+											"_parent": {
+												"$ref": "AAAAAAFqC3Y9/YruUV4="
+											},
+											"model": {
+												"$ref": "AAAAAAFqC3daYIsCzWw="
+											},
+											"font": "Arial;13;0",
+											"left": 37,
+											"top": 251,
+											"width": 213.57177734375,
+											"height": 13
+										},
+										{
+											"_type": "ERDColumnView",
+											"_id": "AAAAAAFqC3g9JIsN/bo=",
+											"_parent": {
+												"$ref": "AAAAAAFqC3Y9/YruUV4="
+											},
+											"model": {
+												"$ref": "AAAAAAFqC3g8CIsKUD8="
+											},
+											"font": "Arial;13;0",
+											"left": 37,
+											"top": 266,
+											"width": 213.57177734375,
+											"height": 13
+										}
+									],
+									"font": "Arial;13;0",
+									"left": 32,
+									"top": 231,
+									"width": 223.57177734375,
+									"height": 53
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 32,
+							"top": 208,
+							"width": 223.57177734375,
+							"height": 76,
+							"nameLabel": {
+								"$ref": "AAAAAAFqC3Y9/IrtlpU="
+							},
+							"columnCompartment": {
+								"$ref": "AAAAAAFqC3Y9/YruUV4="
+							}
 						}
 					]
 				},
@@ -201,6 +299,47 @@
 							"name": "Password",
 							"type": "VARCHAR",
 							"length": "100"
+						}
+					]
+				},
+				{
+					"_type": "ERDEntity",
+					"_id": "AAAAAAFqC3Y994rqQVo=",
+					"_parent": {
+						"$ref": "AAAAAAFp+nxpT2YxvT4="
+					},
+					"name": "SolicitudAmistad",
+					"columns": [
+						{
+							"_type": "ERDColumn",
+							"_id": "AAAAAAFqC3aE3or4r7c=",
+							"_parent": {
+								"$ref": "AAAAAAFqC3Y994rqQVo="
+							},
+							"name": "IdSolicitudAmistad",
+							"type": "INTEGER",
+							"length": 0,
+							"primaryKey": true
+						},
+						{
+							"_type": "ERDColumn",
+							"_id": "AAAAAAFqC3daYIsCzWw=",
+							"_parent": {
+								"$ref": "AAAAAAFqC3Y994rqQVo="
+							},
+							"name": "IdSolicitante",
+							"type": "INTEGER",
+							"length": 0
+						},
+						{
+							"_type": "ERDColumn",
+							"_id": "AAAAAAFqC3g8CIsKUD8=",
+							"_parent": {
+								"$ref": "AAAAAAFqC3Y994rqQVo="
+							},
+							"name": "IdSolicitado",
+							"type": "INTEGER",
+							"length": 0
 						}
 					]
 				}
